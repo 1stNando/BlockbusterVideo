@@ -1,4 +1,4 @@
-// @import 'https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css';
+@import 'https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css';
 
 :root {
   font: 16px / 1 sans-serif;
@@ -14,11 +14,18 @@
   --tangerine: #f99d1b;
 }
 
-html {
-  height: 100%;
-}
+// html {
+//   height: 100%;
+// }
 
-body {
-  margin: 0;
-  min-height: 100%;
+// body {
+//   margin: 0;
+//   min-height: 100%;
+// }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 512px;
 }
